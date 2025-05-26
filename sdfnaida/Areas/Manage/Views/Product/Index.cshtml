@@ -1,0 +1,53 @@
+﻿@* Areas/Manage/Views/Product/Index.cshtml *@
+
+<a asp-action="Create" asp-controller="Product" class="text-danger">Create</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>mdo</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Product" class="text-danger">Edit</a>
+                <a asp-action="Delete" asp-controller="Product" class="text-danger">Delete</a>
+                <a asp-action="Update" asp-controller="Product" class="text-danger">Update</a>
+            </td>
+           
+
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>fat</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Product" class="text-danger">Edit</a>
+                <a asp-action="Delete" asp-controller="Product" class="text-danger">Delete</a>
+                <a asp-action="Update" asp-controller="Product" class="text-danger">Update</a>
+            </td>
+
+        </tr>
+        <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>twitter</td>
+            <td>
+                <a asp-action="Edit" asp-controller="Product" class="text-danger">Edit</a>
+                <a asp-action="Delete" asp-controller="Product" class="text-danger">Delete</a>
+                <a asp-action="Update" asp-controller="Product" class="text-danger">Update</a>
+            </td>
+
+        </tr>
+    </tbody>
+</table>
